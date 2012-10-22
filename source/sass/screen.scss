@@ -1,0 +1,346 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import url(grads.scss);
+@import url(../css/fonts/bree-serif-fontfacekit/stylesheet.css);
+@import url(../css/fonts/bitter-fontfacekit/stylesheet.css);
+
+
+/* VARIABLES */
+
+$page-width: 	1000px;
+$blue: 	rgb(0, 145, 226);
+$gray-dk: 		rgba(58, 62, 62, 1.000);
+$gray-lt: 		shade($gray-dk, 20%);
+$orange: 		rgba(226, 0, 36, 1.000);
+$purple: 		rgba(165, 29, 155, 1.000);
+$main-font: 	"BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$alt-font: 		"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$radius: 		8px;
+
+@mixin fancy-grad {
+	background: rgb(234,2,150); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDI5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2FiMWI5YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2MzMGU5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3YjJkYTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(234,2,150,1) 0%, rgba(171,27,156,1) 46%, rgba(195,14,155,1) 47%, rgba(123,45,167,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,2,150,1)), color-stop(46%,rgba(171,27,156,1)), color-stop(47%,rgba(195,14,155,1)), color-stop(100%,rgba(123,45,167,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(234,2,150,1) 0%,rgba(171,27,156,1) 46%,rgba(195,14,155,1) 47%,rgba(123,45,167,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(234,2,150,1) 0%,rgba(171,27,156,1) 46%,rgba(195,14,155,1) 47%,rgba(123,45,167,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(234,2,150,1) 0%,rgba(171,27,156,1) 46%,rgba(195,14,155,1) 47%,rgba(123,45,167,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(234,2,150,1) 0%,rgba(171,27,156,1) 46%,rgba(195,14,155,1) 47%,rgba(123,45,167,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea0296', endColorstr='#7b2da7',GradientType=0 ); /* IE6-8 */ 
+}
+
+/* END VARIABLES */
+
+
+#outer {
+	width: $page-width;
+	margin: 0px auto;
+	padding: 0px auto;
+}
+
+#inner {
+	width: $page-width;
+	margin: 0px auto;
+}
+#content_top {
+	background-image: url(../img/mast_bg1.jpg);
+	width: $page-width;
+	height: 357px;
+	display: block;
+	float: left;
+	clear: both;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#content {
+	background-image: url(../img/mast_bg2.jpg);
+	width: $page-width;
+	display: block;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#content #nav {
+	margin-left: 79px;
+	vertical-align: bottom;
+	width: 835px;
+	margin: 0 0 30px 67px;
+}
+#nav #btn-bar {
+	float: left;
+	width: 600px;
+	height:26px;
+}
+#nav #logo {
+	clear: left;
+	float: left;
+	vertical-align: bottom;
+	display: block;
+}
+#content_area #col1 {
+	float: left;
+	width: 100px;
+	margin: 0 0 0 0px;
+}
+#content_area #col2 {
+	float: left;
+	width: 450px;
+	margin: 0 0 0 44px;
+}
+
+	#content_area #col2b {
+		float: left;
+		width: 750px;
+		margin: 0 0 0 44px;
+	}
+
+#content_area #col3 {
+	width: 243px;
+	margin: 0 0 0 660px;
+}
+#footer {
+	background-image: url(../img/footer.jpg);
+	height: 56px;
+	width: $page-width;
+	text-align: center;
+	vertical-align: middle;
+	margin:0 0 1em 0;
+}
+#footer p {
+	color: $gray-dk;
+	font-size: 0.7em;
+	padding: 2em 0 0 0;
+	display: block;
+	font-family: $alt-font;
+	font-style:normal;
+}
+#col1 #hexside {
+	margin-top: 78px;
+	float: right;
+}
+
+/* >>> TYPE */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $main-font;
+	font-style:normal;
+	color: $gray-lt;
+}
+
+h1 {
+	font-size:2.5em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0 0 0 0;
+	line-height: 1em;
+}
+
+h3 {
+	font-size:1.25em;
+}
+
+h3 {
+	font-size:1em;
+}
+
+p {
+	font-size: 0.9em;
+	font-family: $main-font;
+	line-height: 170%;
+	color: $gray-lt;
+	letter-spacing: 0.05em;
+}
+
+
+p a {
+	color: $blue;
+	
+}
+
+
+.blue {
+	color: $blue;
+}
+
+/* <<< TYPE */
+
+
+
+/* >>> NAVIGATION */
+
+#btn-bar {
+	display: block;
+	float: left;
+	margin: 10px 0 0 25px;
+
+}
+
+	#btn-bar ul {
+		list-style: none;
+		padding: 0;
+		margin: 0 auto;
+		font-size: 1em;
+		font-family: $main-font;
+
+	}
+
+		#btn-bar ul li {
+			float: left;
+			margin: 0 .5em;
+			display: block;
+
+		}
+
+			#btn-bar ul li a {
+				color: $gray-lt;
+				padding: .15em .75em;
+				margin: 0 0 0 0em;
+				vertical-align: center;
+				border: 2px solid $blue;
+				border-radius: ($radius); 
+				list-style-type: none;
+				background-color: white;
+				display: block;
+				text-decoration: none; 
+
+			}
+
+				#btn-bar ul li a:hover {
+					color: white;
+					background-color: $blue;
+
+				}
+
+					
+					#index #btn-bar .home a {
+						/*@include fancy-grad;*/
+						background-color: $purple;
+						color: white;
+						padding: .15em .75em;
+						margin: 0 0 0 0em;
+						vertical-align: center;
+						border: 2px solid $purple;
+						border-radius: ($radius); 
+						list-style-type: none;
+						display: block;
+						text-decoration: none;
+					}
+
+					#about #btn-bar .about a {
+						/*@include fancy-grad;*/
+						background-color: $purple;
+						color: white;
+						padding: .15em .75em;
+						margin: 0 0 0 0em;
+						vertical-align: center;
+						border: 2px solid $purple;
+						border-radius: ($radius); 
+						list-style-type: none;
+						display: block;
+						text-decoration: none;
+						
+					}
+
+					#contact #btn-bar .contact a {
+						/*@include fancy-grad;*/
+						background-color: $purple;
+						color: white;
+						padding: .15em .75em;
+						margin: 0 0 0 0em;
+						vertical-align: center;
+						border: 2px solid $purple;
+						border-radius: ($radius); 
+						list-style-type: none;
+						display: block;
+						text-decoration: none;
+						
+					}
+
+					#press #btn-bar .press a {
+						/*@include fancy-grad;*/
+						background-color: $purple;
+						color: white;
+						padding: .15em .75em;
+						margin: 0 0 0 0em;
+						vertical-align: center;
+						border: 2px solid $purple;
+						border-radius: ($radius); 
+						list-style-type: none;
+						display: block;
+						text-decoration: none;
+						
+					}
+
+
+
+/* END NAVIGATION  */
+
+
+/* START footer buttons */
+
+
+#footer ul {
+	font-size: .9em;
+	font-family: $main-font;
+	text-align: center;
+	float: left;
+	display: block;
+	margin: 23px 0 0 120px;
+	padding: 0;
+
+}
+
+	#footer ul li {
+		color: $gray-dk;
+		float: left;
+		text-align: left;
+		margin: 0;
+		list-style: none;
+		margin: 0 0 0 2em;
+
+	}
+
+		#footer ul li a {
+			color: $blue;
+			text-decoration: none;
+		}
+
+			#footer ul li a:hover {
+				color: $orange;
+			}
+
+
+/* end footer buttons */
+
+#footer .copyright p {
+	color: $gray-dk;
+	display: block;
+	float: left;
+	margin: 24px 3em;
+	padding: 0;
+}
+
+
+#content #content_area {
+}
+
+.fat_margins {
+	margin: 2em 0 0 3em;
+}
+
+.testing {
+	color: red;
+}
+
+
+
+
+
+
+

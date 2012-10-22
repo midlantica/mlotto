@@ -1,0 +1,384 @@
+@import url(base.scss);
+@import url(../css/fonts/bree-serif-fontfacekit/stylesheet.css);
+@import url(../css/fonts/bitter-fontfacekit/stylesheet.css);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 37, ../sass/screen-6-40.scss */
+#outer {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+/* line 43, ../sass/screen-6-40.scss */
+#inner {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* line 47, ../sass/screen-6-40.scss */
+#content_top {
+  background-image: url(../img/mast_bg1.jpg);
+  width: 1000px;
+  height: 357px;
+  display: block;
+  float: left;
+  clear: both;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* line 57, ../sass/screen-6-40.scss */
+#content {
+  background-image: url(../img/mast_bg2.jpg);
+  width: 1000px;
+  display: block;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* line 65, ../sass/screen-6-40.scss */
+#content #nav {
+  margin-left: 79px;
+  vertical-align: bottom;
+  width: 835px;
+  margin: 0 0 30px 67px;
+}
+
+/* line 71, ../sass/screen-6-40.scss */
+#nav #btn-bar {
+  float: left;
+  width: 600px;
+  height: 26px;
+}
+
+/* line 76, ../sass/screen-6-40.scss */
+#nav #logo {
+  clear: left;
+  float: left;
+  vertical-align: bottom;
+  display: block;
+}
+
+/* line 82, ../sass/screen-6-40.scss */
+#content_area #col1 {
+  float: left;
+  width: 100px;
+  margin: 0 0 0 0px;
+}
+
+/* line 87, ../sass/screen-6-40.scss */
+#content_area #col2 {
+  float: left;
+  width: 450px;
+  margin: 0 0 0 44px;
+}
+
+/* line 93, ../sass/screen-6-40.scss */
+#content_area #col2b {
+  float: left;
+  width: 750px;
+  margin: 0 0 0 44px;
+}
+
+/* line 99, ../sass/screen-6-40.scss */
+#content_area #col3 {
+  width: 243px;
+  margin: 0 0 0 660px;
+}
+
+/* line 103, ../sass/screen-6-40.scss */
+#footer {
+  background-image: url(../img/footer.jpg);
+  height: 56px;
+  width: 1000px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 1em 0;
+}
+
+/* line 111, ../sass/screen-6-40.scss */
+#footer p {
+  color: #3a3e3e;
+  font-size: 0.7em;
+  padding: 2em 0 0 0;
+  display: block;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: normal;
+}
+
+/* line 119, ../sass/screen-6-40.scss */
+#col1 #hexside {
+  margin-top: 78px;
+  float: right;
+}
+
+/* >>> TYPE */
+/* line 126, ../sass/screen-6-40.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: normal;
+  color: #2e3131;
+}
+
+/* line 132, ../sass/screen-6-40.scss */
+h1 {
+  font-size: 2.5em;
+}
+
+/* line 136, ../sass/screen-6-40.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 0 0;
+  line-height: 1em;
+}
+
+/* line 142, ../sass/screen-6-40.scss */
+h3 {
+  font-size: 1.25em;
+}
+
+/* line 146, ../sass/screen-6-40.scss */
+h3 {
+  font-size: 1em;
+}
+
+/* line 150, ../sass/screen-6-40.scss */
+p {
+  font-size: 0.9em;
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 170%;
+  color: #2e3131;
+  letter-spacing: 0.05em;
+}
+
+/* line 158, ../sass/screen-6-40.scss */
+.blue {
+  color: #0091e2;
+}
+
+/* <<< TYPE */
+/* >>> NAVIGATION */
+/* line 168, ../sass/screen-6-40.scss */
+#btn-bar {
+  display: block;
+  float: left;
+  margin: 10px 0 0 25px;
+}
+
+/* line 175, ../sass/screen-6-40.scss */
+#btn-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1em;
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* line 184, ../sass/screen-6-40.scss */
+#btn-bar ul li {
+  float: left;
+  margin: 0 .5em;
+  display: block;
+}
+
+/* line 191, ../sass/screen-6-40.scss */
+#btn-bar ul li a {
+  color: #2e3131;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #0091e2;
+  border-radius: 8px;
+  list-style-type: none;
+  background-color: white;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 205, ../sass/screen-6-40.scss */
+#btn-bar ul li a:hover {
+  color: white;
+  background-color: #0091e2;
+}
+
+/* line 212, ../sass/screen-6-40.scss */
+#index #btn-bar .home a {
+  background: #ea0296;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDI5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2FiMWI5YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2MzMGU5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3YjJkYTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ea0296), color-stop(46%, #ab1b9c), color-stop(47%, #c30e9b), color-stop(100%, #7b2da7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea0296', endColorstr='#7b2da7',GradientType=0 );
+  /* IE6-8 */
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #e20024;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 225, ../sass/screen-6-40.scss */
+#about #btn-bar .about a {
+  background: #ea0296;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDI5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2FiMWI5YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2MzMGU5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3YjJkYTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ea0296), color-stop(46%, #ab1b9c), color-stop(47%, #c30e9b), color-stop(100%, #7b2da7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea0296', endColorstr='#7b2da7',GradientType=0 );
+  /* IE6-8 */
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #e20024;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 239, ../sass/screen-6-40.scss */
+#contact #btn-bar .contact a {
+  background: #ea0296;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDI5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2FiMWI5YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2MzMGU5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3YjJkYTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ea0296), color-stop(46%, #ab1b9c), color-stop(47%, #c30e9b), color-stop(100%, #7b2da7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea0296', endColorstr='#7b2da7',GradientType=0 );
+  /* IE6-8 */
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #e20024;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 253, ../sass/screen-6-40.scss */
+#press #btn-bar .press a {
+  background: #ea0296;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDI5NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2FiMWI5YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2MzMGU5YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3YjJkYTciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ea0296), color-stop(46%, #ab1b9c), color-stop(47%, #c30e9b), color-stop(100%, #7b2da7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ea0296 0%, #ab1b9c 46%, #c30e9b 47%, #7b2da7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ea0296', endColorstr='#7b2da7',GradientType=0 );
+  /* IE6-8 */
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #e20024;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* END NAVIGATION  */
+/* START footer buttons */
+/* line 275, ../sass/screen-6-40.scss */
+#footer ul {
+  font-size: .9em;
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 22px 0 0 120px;
+  padding: 0;
+}
+
+/* line 286, ../sass/screen-6-40.scss */
+#footer ul li {
+  color: #3a3e3e;
+  float: left;
+  text-align: left;
+  margin: 0;
+  list-style: none;
+  margin: 0 0 0 2em;
+}
+
+/* line 296, ../sass/screen-6-40.scss */
+#footer ul li a {
+  color: #0091e2;
+  text-decoration: none;
+}
+
+/* line 301, ../sass/screen-6-40.scss */
+#footer ul li a:hover {
+  color: #e20024;
+}
+
+/* end footer buttons */
+/* line 308, ../sass/screen-6-40.scss */
+#footer .copyright p {
+  color: #3a3e3e;
+  display: block;
+  float: left;
+  margin: 24px 3em;
+  padding: 0;
+}
+
+/* line 320, ../sass/screen-6-40.scss */
+.fat_margins {
+  margin: 2em 0 0 3em;
+}
+
+/* line 324, ../sass/screen-6-40.scss */
+.testing {
+  color: red;
+}

@@ -1,0 +1,327 @@
+@import url(grads.scss);
+@import url(../css/fonts/bree-serif-fontfacekit/stylesheet.css);
+@import url(../css/fonts/bitter-fontfacekit/stylesheet.css);
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* VARIABLES */
+/* END VARIABLES */
+/* line 39, ../sass/screen.scss */
+#outer {
+  width: 1000px;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+/* line 45, ../sass/screen.scss */
+#inner {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* line 49, ../sass/screen.scss */
+#content_top {
+  background-image: url(../img/mast_bg1.jpg);
+  width: 1000px;
+  height: 357px;
+  display: block;
+  float: left;
+  clear: both;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* line 59, ../sass/screen.scss */
+#content {
+  background-image: url(../img/mast_bg2.jpg);
+  width: 1000px;
+  display: block;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/* line 67, ../sass/screen.scss */
+#content #nav {
+  margin-left: 79px;
+  vertical-align: bottom;
+  width: 835px;
+  margin: 0 0 30px 67px;
+}
+
+/* line 73, ../sass/screen.scss */
+#nav #btn-bar {
+  float: left;
+  width: 600px;
+  height: 26px;
+}
+
+/* line 78, ../sass/screen.scss */
+#nav #logo {
+  clear: left;
+  float: left;
+  vertical-align: bottom;
+  display: block;
+}
+
+/* line 84, ../sass/screen.scss */
+#content_area #col1 {
+  float: left;
+  width: 100px;
+  margin: 0 0 0 0px;
+}
+
+/* line 89, ../sass/screen.scss */
+#content_area #col2 {
+  float: left;
+  width: 450px;
+  margin: 0 0 0 44px;
+}
+
+/* line 95, ../sass/screen.scss */
+#content_area #col2b {
+  float: left;
+  width: 750px;
+  margin: 0 0 0 44px;
+}
+
+/* line 101, ../sass/screen.scss */
+#content_area #col3 {
+  width: 243px;
+  margin: 0 0 0 660px;
+}
+
+/* line 105, ../sass/screen.scss */
+#footer {
+  background-image: url(../img/footer.jpg);
+  height: 56px;
+  width: 1000px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 1em 0;
+}
+
+/* line 113, ../sass/screen.scss */
+#footer p {
+  color: #3a3e3e;
+  font-size: 0.7em;
+  padding: 2em 0 0 0;
+  display: block;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: normal;
+}
+
+/* line 121, ../sass/screen.scss */
+#col1 #hexside {
+  margin-top: 78px;
+  float: right;
+}
+
+/* >>> TYPE */
+/* line 128, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: normal;
+  color: #2e3131;
+}
+
+/* line 134, ../sass/screen.scss */
+h1 {
+  font-size: 2.5em;
+}
+
+/* line 138, ../sass/screen.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 0 0;
+  line-height: 1em;
+}
+
+/* line 144, ../sass/screen.scss */
+h3 {
+  font-size: 1.25em;
+}
+
+/* line 148, ../sass/screen.scss */
+h3 {
+  font-size: 1em;
+}
+
+/* line 152, ../sass/screen.scss */
+p {
+  font-size: 0.9em;
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 170%;
+  color: #2e3131;
+  letter-spacing: 0.05em;
+}
+
+/* line 161, ../sass/screen.scss */
+p a {
+  color: #0091e2;
+}
+
+/* line 167, ../sass/screen.scss */
+.blue {
+  color: #0091e2;
+}
+
+/* <<< TYPE */
+/* >>> NAVIGATION */
+/* line 177, ../sass/screen.scss */
+#btn-bar {
+  display: block;
+  float: left;
+  margin: 10px 0 0 25px;
+}
+
+/* line 184, ../sass/screen.scss */
+#btn-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1em;
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* line 193, ../sass/screen.scss */
+#btn-bar ul li {
+  float: left;
+  margin: 0 .5em;
+  display: block;
+}
+
+/* line 200, ../sass/screen.scss */
+#btn-bar ul li a {
+  color: #2e3131;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #0091e2;
+  border-radius: 8px;
+  list-style-type: none;
+  background-color: white;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 214, ../sass/screen.scss */
+#btn-bar ul li a:hover {
+  color: white;
+  background-color: #0091e2;
+}
+
+/* line 221, ../sass/screen.scss */
+#index #btn-bar .home a {
+  /*@include fancy-grad;*/
+  background-color: #a51d9b;
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #a51d9b;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 235, ../sass/screen.scss */
+#about #btn-bar .about a {
+  /*@include fancy-grad;*/
+  background-color: #a51d9b;
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #a51d9b;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 250, ../sass/screen.scss */
+#contact #btn-bar .contact a {
+  /*@include fancy-grad;*/
+  background-color: #a51d9b;
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #a51d9b;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 265, ../sass/screen.scss */
+#press #btn-bar .press a {
+  /*@include fancy-grad;*/
+  background-color: #a51d9b;
+  color: white;
+  padding: .15em .75em;
+  margin: 0 0 0 0em;
+  vertical-align: center;
+  border: 2px solid #a51d9b;
+  border-radius: 8px;
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+}
+
+/* END NAVIGATION  */
+/* START footer buttons */
+/* line 288, ../sass/screen.scss */
+#footer ul {
+  font-size: .9em;
+  font-family: "BitterRegular", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  float: left;
+  display: block;
+  margin: 23px 0 0 120px;
+  padding: 0;
+}
+
+/* line 299, ../sass/screen.scss */
+#footer ul li {
+  color: #3a3e3e;
+  float: left;
+  text-align: left;
+  margin: 0;
+  list-style: none;
+  margin: 0 0 0 2em;
+}
+
+/* line 309, ../sass/screen.scss */
+#footer ul li a {
+  color: #0091e2;
+  text-decoration: none;
+}
+
+/* line 314, ../sass/screen.scss */
+#footer ul li a:hover {
+  color: #e20024;
+}
+
+/* end footer buttons */
+/* line 321, ../sass/screen.scss */
+#footer .copyright p {
+  color: #3a3e3e;
+  display: block;
+  float: left;
+  margin: 24px 3em;
+  padding: 0;
+}
+
+/* line 333, ../sass/screen.scss */
+.fat_margins {
+  margin: 2em 0 0 3em;
+}
+
+/* line 337, ../sass/screen.scss */
+.testing {
+  color: red;
+}

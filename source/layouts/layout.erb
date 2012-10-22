@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+
+        <%= partial "head" %>
+        
+    </head>
+    <body id="<%= page_classes %>">
+         <%# partial "if_lt_IE_7" %>
+
+        <div id="outer">
+          <div id="inner" class="clearfix" >
+
+            <!-- TOP PIC -->
+            <div id="content_top">
+               <%= partial "gallery" %>
+            </div>
+
+            <!-- CONTENT START -->
+            <div id="content">
+
+              <!-- NAV START -->
+              <div id="nav" class="clearfix">
+                <a href="index.html"><img src="img/mlotto-logo.png" alt="mLotto logo" width="143" height="39" id="logo"></a>
+                  <div id="btn-bar"> 
+                      <%= partial "nav" %>
+                  </div>
+              </div>
+              <!-- END NAV -->
+
+              <!-- CONTENT AREA COPY -->
+              <div id="content_area">
+
+
+                <%= yield %>
+           
+               <br clear="all">
+              </div><!-- END CONTENT AREA --> 
+
+            </div><!-- END CONTENT --> 
+          </div><!-- END INNER -->
+          
+          <%= partial "footer" %>
+
+        </div><!-- END OUTER --> 
+
+        <%= partial "js_footer" %>
+
+
+    </body>
+</html>

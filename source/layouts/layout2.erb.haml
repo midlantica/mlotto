@@ -1,0 +1,38 @@
+<!doctype html>
+%html
+  /[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+  /[if IE 7] <html class="no-js lt-ie9 lt-ie8">
+  /[if IE 8] <html class="no-js lt-ie9">
+  / [if gt IE 8]><!
+  %html.no-js
+    / <![endif]
+
+    = partial "head"
+
+    %body{:id => page_classes}
+
+      #outer
+
+        #inner.clearfix
+
+          #content_top  
+
+          #content
+
+            #nav.clearfix
+              %a{:href => "index.html"}
+                %img#logo{:src => "img/mlotto-logo.png", :alt => "mLotto logo"}/
+
+              #btn-bar
+                = partial "nav"
+
+            #content_area
+
+              = yield
+
+              %br{:clear => "all"}
+
+        = partial "footer"
+
+      = partial "js_footer"
+      
